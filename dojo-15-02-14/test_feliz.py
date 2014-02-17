@@ -1,16 +1,18 @@
 import unittest
 
-from pugpi import feliz 
-class PugPITestCase(unittest.TestCase):
+from feliz import feliz
 
-	def test_7(self):
-		self.assertTrue(feliz(7))
 
-	def test_49(self):
-		self.assertTrue(feliz(49))
+class NumeroFelizTestCase(unittest.TestCase):
 
-	def test_3(self):
-		self.assertFalse(feliz(3))
+    def test_7_is_happy(self):
+        self.assertTrue(feliz(7))
 
-	def test_6(self):
-		self.assertFalse(feliz(6))
+    def test_49_is_happy(self):
+        self.assertTrue(feliz(49))
+
+    def test_3_is_unhappy(self):
+        self.assertFalse(feliz(3))
+
+    def test_6_is_unhappy(self):
+        self.assertFalse(feliz(6))
