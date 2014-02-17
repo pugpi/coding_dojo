@@ -1,5 +1,4 @@
-Problema dos [Números Felizes](http://dojopuzzles.com/problemas/exibe/numeros-felizes/)
-========
+# Problema dos [Números Felizes](http://dojopuzzles.com/problemas/exibe/numeros-felizes/)
 
 Dojo realizado dentro do VIII Encontro do PUG-PI no dia 15/02/14.
 
